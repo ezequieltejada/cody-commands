@@ -10,8 +10,8 @@ When adding a new command, please follow the following steps:
 4. Submit a pull request to this repository.
 
 ## Commands
-* commit-message.json - Generate a commit message based on the staged files
-* rxjs-nested-subcriptions.json - Find nested subscriptions in rxjs code and replace them with switchMap
+* [commit-message.json](commit-message.json) - Generate a commit message based on the staged files
+* [rxjs-nested-subcriptions.json](rxjs-nested-subcriptions.json) - Find nested subscriptions in rxjs code and replace them with switchMap
 
 ## Links
 
