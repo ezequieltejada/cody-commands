@@ -1,0 +1,12 @@
+{
+	"commands": {
+		"commit-message": {
+			"prompt": "Suggest an informative commit message by summarizing code changes from the shared command output. The commit message MUST follow the conventional commit format and provide meaningful context for future readers. Be clear and concise (at most, 3 phrases). Make the message in spanish.",
+			"context": {
+				"codebase": false,
+				"command": "git diff --staged"
+			},
+			"description": "Commit message for current changes"
+		}
+	}
+}
