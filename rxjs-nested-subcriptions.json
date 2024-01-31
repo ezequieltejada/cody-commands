@@ -2,7 +2,7 @@
     "commands": {
       "rxjs-nested-subcriptions": {
         "description": "rxjs-nested-subcriptions",
-        "prompt": "As an RxJS expert, take the selected code and rewrite those nested subcriptions to use RxJS operator (such as \"pipe\" or \"switchMap\"). Also, if there is an assignment to a class' property and doesn't affect the output, it should be handle via \"tap\", else don't add any tap. Your code should be clean, optimized and easy to understand. Make sure the code is formatted and linted.",
+        "prompt": "As an RxJS expert, take the selected code and rewrite those nested subscriptions to use RxJS operators (such as \"pipe\" or \"switchMap\"). Also, if there is an assignment to a class' property and it doesn't affect the output, it should be handled via \"tap\". However, don't add any \"tap\" if it's not necessary. Your code should be clean, optimized, and easy to understand. Make sure the code is formatted and linted. Additionally, ensure that you manage subscriptions properly to avoid memory leaks. Use the \"untilDestroyed\" operator to automatically unsubscribe when the component is destroyed, but remember to use it only once at the end of the pipe.",
         "context": [
           "selection"
         ]
