@@ -5,8 +5,8 @@
 ### Adding a new command
 When adding a new command, please follow the following steps:
 1. Fork this repository
-2. Add your command to the workspace-commands.json file
-3. Add your command to the README.md file
+2. Create a new file with the command.
+3. Add your command to the README.md file, in the [Commands](#commands) section. Don't forget to describe it.
 4. Submit a pull request to this repository.
 
 ## Commands
