@@ -1,0 +1,11 @@
+{
+    "commands": {
+      "rxjs-nested-subcriptions": {
+        "description": "rxjs-nested-subcriptions",
+        "prompt": "As an RxJS expert, take the selected code and rewrite those nested subcriptions to use RxJS operator (such as \"pipe\" or \"switchMap\"). Also, if there is an assignment to a class' property and doesn't affect the output, it should be handle via \"tap\", else don't add any tap. Your code should be clean, optimized and easy to understand. Make sure the code is formatted and linted.",
+        "context": [
+          "selection"
+        ]
+      }
+    }
+  }
